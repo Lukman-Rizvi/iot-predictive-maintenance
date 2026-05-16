@@ -1,0 +1,15 @@
+# config.yaml — Dashboard configuration
+# IoT Predictive Maintenance | University of Peradeniya
+# Dept: Electrical & Electronic Engineering
+
+mqtt:
+  broker: "localhost"        # IP of machine running Mosquitto broker
+  port: 1883
+  topic: "motor/vibration"
+
+display:
+  history_samples: 500       # number of samples shown in rolling plot
+  update_ms: 200             # plot refresh interval in milliseconds
+
+logging:
+  directory: "logs"          # folder where CSV logs are saved

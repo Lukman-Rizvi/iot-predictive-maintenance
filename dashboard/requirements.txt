@@ -1,0 +1,11 @@
+# requirements.txt
+# IoT Predictive Maintenance Dashboard
+# Dept: Electrical & Electronic Engineering, University of Peradeniya
+# Team: E22215, E22028, E22177, E22287, E22199
+#
+# Install: pip install -r requirements.txt
+
+paho-mqtt>=1.6.1
+matplotlib>=3.7.0
+numpy>=1.24.0
+PyYAML>=6.0
